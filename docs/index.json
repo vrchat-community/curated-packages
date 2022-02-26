@@ -2,113 +2,56 @@
   "name": "VRChat Official Packages",
   "author": "hello@vrchat.com",
   "packages": {
-    "com.vrchat.base": {
+    "com.vrchat.clientsim": {
       "versions": {
-        "3.0.0": {
-          "name": "com.vrchat.base",
-          "displayName": "VRChat SDK - Base",
-          "version": "3.0.0",
+        "1.1.0": {
+          "name": "com.vrchat.clientsim",
+          "displayName": "VRChat Client Simulator",
+          "version": "1.1.0",
           "unity": "2019.4",
-          "description": "Base for VRChat SDK",
-          "vrchatVersion": "2021.08.19.11.34",
-          "url": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.base#3.0.0"
-        },
-        "3.0.1": {
-          "name": "com.vrchat.base",
-          "displayName": "VRChat SDK - Base",
-          "version": "3.0.1",
-          "unity": "2019.4",
-          "description": "Base for VRChat SDK",
-          "vrchatVersion": "2022.1.1",
-          "url": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.base#3.0.1"
-        }
-      }
-    },
-    "com.vrchat.avatars": {
-      "versions": {
-        "3.0.1": {
-          "name": "com.vrchat.avatars",
-          "displayName": "VRChat SDK - Avatars",
-          "version": "3.0.1",
-          "unity": "2019.4",
-          "description": "Our powerful Avatars 3.0 System",
-          "gitDependencies": {
-            "com.vrchat.base": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.base#3.0.1"
+          "description": "VRChat Client Simulator for testing SDK3 worlds in Unity.",
+          "dependencies": {
+            "com.unity.xr.oculus.standalone": "2.38.4",
+            "com.unity.inputsystem": "1.0.2"
           },
-          "url": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.avatars#3.0.1",
+          "gitDependencies": {
+            "com.vrchat.base": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.base#3.0.1",
+            "com.vrchat.worlds": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.worlds#3.0.1"
+          },
+          "url": "https://github.com/vrchat-community/ClientSim.git#1.1.0",
           "samples": [
             {
-              "displayName": "AV3 Demo Assets",
-              "description": "Basic AV3 Demo Assets",
-              "path": "Samples~/AV3 Demo Assets"
-            }
-          ]
-        },
-        "3.0.0": {
-          "name": "com.vrchat.avatars",
-          "displayName": "VRChat SDK - Avatars",
-          "version": "3.0.0",
-          "unity": "2019.4",
-          "description": "Our powerful Avatars 3.0 System",
-          "gitDependencies": {
-            "com.vrchat.base": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.base#3.0.0"
-          },
-          "url": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.avatars#3.0.0",
-          "samples": [
-            {
-              "displayName": "AV3 Demo Assets",
-              "description": "Basic AV3 Demo Assets",
-              "path": "Samples~/AV3 Demo Assets"
+              "displayName": "ClientSimWorldTestExample",
+              "description": "An example of a world test using the Test Framework included in ClientSim. Automate interactions in your world and verify the results. Currently requires knowledge on C# and Unity Testing.",
+              "path": "Samples~/ClientSimWorldTestExample"
             }
           ]
         }
       }
     },
-    "com.vrchat.worlds": {
+    "com.merlinvr.udonsharp": {
       "versions": {
-        "3.0.1": {
-          "name": "com.vrchat.worlds",
-          "displayName": "VRChat SDK - Worlds",
-          "version": "3.0.1",
+        "1.0.0-dev-serialization": {
+          "name": "com.merlinvr.udonsharp",
+          "displayName": "UdonSharp",
+          "version": "1.0.0-dev-serialization",
           "unity": "2019.4",
-          "description": "Tools for creating interactive VRChat worlds using Udon",
-          "dependencies": {
-            "com.unity.cinemachine": "2.8.0",
-            "com.unity.postprocessing": "3.1.1",
-            "com.unity.textmeshpro": "2.1.6"
-          },
+          "description": "An experimental compiler for compiling C# to Udon assembly",
           "gitDependencies": {
-            "com.vrchat.base": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.base#3.0.1"
+            "com.vrchat.base": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.base#3.0.1",
+            "com.vrchat.worlds": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.worlds#3.0.1"
           },
-          "url": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.worlds#3.0.1",
+          "url": "https://github.com/vrchat-community/UdonSharp.git?path=Assets/UdonSharp#1.0-dev-serialization",
           "samples": [
             {
-              "displayName": "UdonExampleScene",
-              "description": "Basic Udon Examples for Learning",
-              "path": "Samples~/UdonExampleScene"
-            }
-          ]
-        },
-        "3.0.0": {
-          "name": "com.vrchat.worlds",
-          "displayName": "VRChat SDK - Worlds",
-          "version": "3.0.0",
-          "unity": "2019.4",
-          "description": "Tools for creating interactive VRChat worlds using Udon",
-          "dependencies": {
-            "com.unity.cinemachine": "2.8.0",
-            "com.unity.postprocessing": "3.1.1",
-            "com.unity.textmeshpro": "2.1.6"
-          },
-          "gitDependencies": {
-            "com.vrchat.base": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.base#3.0.0"
-          },
-          "url": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.worlds#3.0.0",
-          "samples": [
+              "displayName": "CustomInspectors",
+              "description": "Custom Inspector Example",
+              "path": "Samples~/CustomInspectors"
+            },
             {
-              "displayName": "UdonExampleScene",
-              "description": "Basic Udon Examples for Learning",
-              "path": "Samples~/UdonExampleScene"
+              "displayName": "Tutorials",
+              "description": "Tutorials Example",
+              "path": "Samples~/Tutorials"
             }
           ]
         }
