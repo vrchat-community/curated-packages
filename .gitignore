@@ -1,0 +1,14 @@
+
+.idea/
+
+ci/bin/
+
+ci/obj/
+
+ci/.editorconfig
+
+ci/.nuke/temp/
+
+ci/Directory.Build.targets
+
+ci/Directory.Build.props
