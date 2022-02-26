@@ -1,8 +1,5 @@
 ﻿name: VRChat Official Packages
 author: hello@vrchat.com
 packages:
-  - https://raw.githubusercontent.com/vrchat/packages/245d4068ecf52e646c63363466aa52674c4afa57/packages/com.vrchat.base/package.json # VRChat Base SDK 3.0.1
-  - https://raw.githubusercontent.com/vrchat/packages/85c52fbfd285d1d5421437fa6e98214cb5af8f72/packages/com.vrchat.base/package.json # VRChat Base SDK 3.0.0
-  - https://raw.githubusercontent.com/vrchat/packages/245d4068ecf52e646c63363466aa52674c4afa57/packages/com.vrchat.avatars/package.json # VRChat Avatars SDK 3.0.1
-  - https://raw.githubusercontent.com/vrchat/packages/85c52fbfd285d1d5421437fa6e98214cb5af8f72/packages/com.vrchat.avatars/package.json # VRChat Avatars SDK 3.0.0
-  - https://raw.githubusercontent.com/vrchat/packages/245d4068ecf52e646c63363466aa52674c4afa57/packages/com.vrchat.worlds/package.json # VRChat Worlds SDK 3.0.1
+  - https://raw.githubusercontent.com/vrchat-community/UdonSharp/1.0-dev-serialization/Assets/UdonSharp/package.json # UdonSharp Dev-Serialization Test
+  - https://raw.githubusercontent.com/vrchat-community/ClientSim/main/package.json # ClientSim Open Beta
