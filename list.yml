@@ -1,5 +1,5 @@
 ﻿name: VRChat Official Packages
 author: hello@vrchat.com
 packages:
-  - https://raw.githubusercontent.com/vrchat-community/UdonSharp/1.0-dev-serialization/Assets/UdonSharp/package.json # UdonSharp Dev-Serialization Test
-  - https://raw.githubusercontent.com/vrchat-community/ClientSim/main/package.json # ClientSim Open Beta
+  - https://raw.githubusercontent.com/vrchat-community/UdonSharp/201344abe16bcc6b26a7ac2339663fddce69029f/Assets/UdonSharp/package.json # UdonSharp Dev-Serialization Test
+  - https://raw.githubusercontent.com/vrchat-community/ClientSim/5456ff11e9b16d136502243d0e05d76eec64284e/package.json # ClientSim Open Beta
