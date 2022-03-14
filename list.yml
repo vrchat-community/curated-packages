@@ -3,4 +3,4 @@ author: hello@vrchat.com
 packages:
   - https://raw.githubusercontent.com/vrchat-community/UdonSharp/ad4093559ddb28b5a7b05a2925670bad205c54d4/Assets/UdonSharp/package.json # UdonSharp Dev-Serialization Test
   - https://raw.githubusercontent.com/vrchat-community/ClientSim/7b3a59c809730f8d47da31f3aeaa93e42e88786f/package.json # ClientSim Open Beta
-  - https://github.com/vrchat-community/ClientSim/blob/d7cbf06054ec495de8852319963bf3d1a44d703f/package.json # ClientSim 1.1.1 Test
+  - https://raw.githubusercontent.com/vrchat-community/ClientSim/d7cbf06054ec495de8852319963bf3d1a44d703f/package.json # ClientSim 1.1.1 Test
