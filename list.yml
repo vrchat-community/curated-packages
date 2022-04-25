@@ -1,6 +1,6 @@
 ﻿name: VRChat Curated Packages
 author: hello@vrchat.com
 packages:
-  - https://raw.githubusercontent.com/vrchat-community/UdonSharp/ac466bbf93519355ad90bd905c225b9ec689d7f3/Packages/com.vrchat.UdonSharp/package.json # UdonSharp 1.0.0
+  - https://raw.githubusercontent.com/vrchat-community/UdonSharp/f3a6ecd97c4eab4870a99bec39636d3ceece20f8/Packages/com.vrchat.UdonSharp/package.json # UdonSharp 1.0.0
   - https://raw.githubusercontent.com/vrchat-community/ClientSim/6ac1035726a2fbc1a3fafa4e7d4c85e4f6ec7437/Packages/com.vrchat.ClientSim/package.json # ClientSim 1.1.3
   
